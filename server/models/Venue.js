@@ -3,7 +3,10 @@ const { Schema, model } = require('mongoose');
 
 const venueSchema = new Schema(
     {
-
+        venue_name: {
+            type: String,
+            require: true
+        }
     }
 );
 
