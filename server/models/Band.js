@@ -3,7 +3,16 @@ const { Schema, model } = require('mongoose');
 
 const bandSchema = new Schema(
     {
-
+        band_name: {
+            type: String,
+            require: true
+        },
+        musicians: [
+            {
+            type: Schema.Types.ObjectId,
+            ref: 'Musician'
+            }
+        ]
     }
 );
 

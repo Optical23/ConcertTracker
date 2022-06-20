@@ -6,6 +6,21 @@ const venueSchema = new Schema(
         venue_name: {
             type: String,
             require: true
+        },
+        address: {
+            type: String,
+            require: true
+        },
+        city: {
+            type: String,
+            require: true
+        },
+        state: {
+            type: String,
+            require: true
+        },
+        description: {
+            type: String
         }
     }
 );
