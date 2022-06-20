@@ -16,4 +16,5 @@ const musicianSchema = new Schema(
 );
 
 const Musician = model('Musician', musicianSchema);
+
 module.exports = Musician;
