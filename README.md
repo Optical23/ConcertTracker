@@ -18,3 +18,5 @@ const keySecret = '(put something here)';
 module.exports = keySecret;
 
 The .gitignore file will make sure you only save that locally for when the repo is launched publicly the key or past key for authentication wont be saved.
+
+To start the application to test if everything is working properly, have your command prompt at the root and run "npm run start:dev"
