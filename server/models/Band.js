@@ -7,7 +7,7 @@ const bandSchema = new Schema(
             type: String,
             require: true
         },
-        musicians: [
+        musician: [
             {
             type: Schema.Types.ObjectId,
             ref: 'Musician'
